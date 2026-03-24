@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #add8e6;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    transition: background-color 0.5s ease;
+}
+
+.navbar > a:hover {
+    background-color: #0096FF;
+}
+
+.currentpage {
+    background-color: #0096FF;
+}
+
+img {
+    height: 25px;
+    width: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: #006699;
+    margin: 5%;
+}
+
+span {
+    color: #006699;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    color: #006699;
+}
