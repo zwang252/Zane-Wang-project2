@@ -8,16 +8,14 @@ export default function Navbar() {
 
     <div className="navbar">
       <img className="logo" src={Logo} />
-      <nav>
-        <Link to="/"> Home </Link>
-        <Link to="/games"> Selection </Link>
-        <Link to="/games/easy"> Easy Game </Link>
-        <Link to="/games/normal"> Normal Game </Link>
-        <Link to="/scores"> High Scores </Link>
-        <Link to="/rules"> Rules </Link>
-        <Link to="/login"> Log In </Link>
-        <Link to="/register"> Register </Link>
-      </nav>
+        <Link className="links" to="/"> Home </Link>
+        <Link className="links" to="/games"> Selection </Link>
+        <Link className="links" to="/games/easy"> Easy Game </Link>
+        <Link className="links" to="/games/normal"> Normal Game </Link>
+        <Link className="links" to="/scores"> High Scores </Link>
+        <Link className="links" to="/rules"> Rules </Link>
+        <Link className="links" to="/login"> Log In </Link>
+        <Link className="links" to="/register"> Register </Link>
     </div>
   );
 }

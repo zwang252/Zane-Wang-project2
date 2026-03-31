@@ -1,7 +1,7 @@
 import SudokuContext from "../context/SudokuContext";
 import "./Board.css";
 
-function ConsumerBoard() {
+function Board() {
   return (
     <SudokuContext.Consumer>
       {({
@@ -56,4 +56,4 @@ function ConsumerBoard() {
   );
 }
 
-export default ConsumerBoard;
+export default Board;

@@ -9,10 +9,11 @@
 
 .logo {
   margin: 0;
-  font-size: 24px;
+  height: 25px;
+  width: 25px;
 }
 
-.links a {
+.links {
   margin-left: 20px;
   text-decoration: none;
   color: white;
@@ -20,6 +21,6 @@
   transition: color 0.2s;
 }
 
-.links a:hover {
+.links:hover {
   color: #00bcd4;
 }
